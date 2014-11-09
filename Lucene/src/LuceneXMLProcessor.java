@@ -19,8 +19,10 @@ import org.apache.lucene.util.Version;
 
 import java.io.IOException;
 
+@SuppressWarnings("unused")
 public class LuceneXMLProcessor 
 {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws ParseException, IOException 
 	{
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);

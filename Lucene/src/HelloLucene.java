@@ -20,7 +20,8 @@ import org.apache.lucene.util.Version;
 import java.io.IOException;
 
 public class HelloLucene {
-  public static void main(String[] args) throws IOException, ParseException {
+  @SuppressWarnings("deprecation")
+public static void main(String[] args) throws IOException, ParseException {
     // 0. Specify the analyzer for tokenizing text.
     //    The same analyzer should be used for indexing and searching
     StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);

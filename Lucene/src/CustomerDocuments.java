@@ -18,6 +18,7 @@ import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
 
+@SuppressWarnings("unused")
 public class CustomerDocuments 
 {	
 	public static void addDoc(IndexWriter w, String xmlFilePath) 
@@ -28,7 +29,7 @@ public class CustomerDocuments
 			for (int i = 0; i < nodes.getLength(); i++) {
 				//gets the first customer
 				Node firstNode = nodes.item(i);
-				    
+
 				if (firstNode.getNodeType() == Node.ELEMENT_NODE) {
 					//puts the first customer into an element
 					Element firstElement = (Element) firstNode;
