@@ -23,6 +23,9 @@ import java.io.IOException;
 public class LuceneXMLProcessor
 {
 	@SuppressWarnings("deprecation")
+	//Optional Arguments
+	//Argument 1 (book || customer)
+	//Argument 2 lucene search query
 	public static void main(String[] args) throws ParseException, IOException 
 	{
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
@@ -30,15 +33,27 @@ public class LuceneXMLProcessor
 	    IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
 	    IndexWriter w = new IndexWriter(index, config);
 	    
-	    for (int i = 1; i <= 20; i++) {
-	    	CustomerDocuments.addDoc(w, ".\\xml\\customers\\customers" + i + ".xml");
+	    String objectType = args.length > 0 ? args[0] : "customer";
+	    String querystr = args.length > 0 ? args[1] : "Holcomb";
+	    Query q = null;
+	    
+	    if (objectType.equals("book")) {	    	
+	    	for (int i = 1; i <= 50; i++) {
+	    		BookDocuments.addDoc(w, ".\\xml\\books\\book" + i + ".xml");
+	    	}
+	    	
+	    	q = new QueryParser(Version.LUCENE_40, "Title", analyzer).parse(querystr); 
+	    } else {
+	    	for (int i = 1; i <= 50; i++) {
+	    		CustomerDocuments.addDoc(w, ".\\xml\\customers\\customers" + i + ".xml");
+	    	}
+	    	
+	    	q = new QueryParser(Version.LUCENE_40, "LastName", analyzer).parse(querystr);
 	    }
 	    
 	    w.close();
 	    
-		String querystr = args.length > 0 ? args[0] : "Holcomb";
 	
-	    Query q = new QueryParser(Version.LUCENE_40, "LastName", analyzer).parse(querystr); 
 	    
 	    int hitsPerPage = 1000;
 	    IndexReader reader = DirectoryReader.open(index);
