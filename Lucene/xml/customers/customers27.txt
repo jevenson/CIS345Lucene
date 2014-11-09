@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="UTF-8" ?><customers>
+	<customer>
+		<FirstName>Zorita</FirstName>
+		<LastName>Tran</LastName>
+		<EmailAddress>sociis.natoque.penatibus@Sedmalesuada.net</EmailAddress>
+		<PhoneNumber>(575) 739-8148</PhoneNumber>
+		<AltPhoneNumber>(440) 576-2526</AltPhoneNumber>
+		<StreetAddress>395-3087 Mauris Rd.</StreetAddress>
+		<City>L�beck</City>
+		<State>LA</State>
+		<ZipCode>5730</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Ivan</FirstName>
+		<LastName>Whitehead</LastName>
+		<EmailAddress>eu.turpis.Nulla@cursusdiam.net</EmailAddress>
+		<PhoneNumber>(296) 380-5308</PhoneNumber>
+		<AltPhoneNumber>(767) 803-3158</AltPhoneNumber>
+		<StreetAddress>1004 Aliquet St.</StreetAddress>
+		<City>Osgoode</City>
+		<State>KS</State>
+		<ZipCode>NC0 2KD</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Malik</FirstName>
+		<LastName>Harmon</LastName>
+		<EmailAddress>odio@orciquislectus.ca</EmailAddress>
+		<PhoneNumber>(641) 931-0055</PhoneNumber>
+		<AltPhoneNumber>(212) 874-3216</AltPhoneNumber>
+		<StreetAddress>P.O. Box 845, 800 Cursus St.</StreetAddress>
+		<City>Bicester</City>
+		<State>TX</State>
+		<ZipCode>7449</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Joseph</FirstName>
+		<LastName>Oneal</LastName>
+		<EmailAddress>quis.diam@Curabiturvellectus.org</EmailAddress>
+		<PhoneNumber>(256) 486-6178</PhoneNumber>
+		<AltPhoneNumber>(530) 963-3985</AltPhoneNumber>
+		<StreetAddress>836-2847 Sed Rd.</StreetAddress>
+		<City>Quickborn</City>
+		<State>CT</State>
+		<ZipCode>845110</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Hyatt</FirstName>
+		<LastName>Boyd</LastName>
+		<EmailAddress>ornare.sagittis@Aliquam.com</EmailAddress>
+		<PhoneNumber>(535) 651-6909</PhoneNumber>
+		<AltPhoneNumber>(112) 245-0234</AltPhoneNumber>
+		<StreetAddress>P.O. Box 648, 810 Nonummy Rd.</StreetAddress>
+		<City>Terneuzen</City>
+		<State>FL</State>
+		<ZipCode>9718</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Emmanuel</FirstName>
+		<LastName>Orr</LastName>
+		<EmailAddress>eget@rhoncus.edu</EmailAddress>
+		<PhoneNumber>(978) 991-8677</PhoneNumber>
+		<AltPhoneNumber>(603) 478-5203</AltPhoneNumber>
+		<StreetAddress>P.O. Box 723, 9784 Vestibulum, Street</StreetAddress>
+		<City>Ravenstein</City>
+		<State>AR</State>
+		<ZipCode>16404</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Justina</FirstName>
+		<LastName>Dudley</LastName>
+		<EmailAddress>Integer@tempusloremfringilla.edu</EmailAddress>
+		<PhoneNumber>(102) 629-1508</PhoneNumber>
+		<AltPhoneNumber>(983) 286-0444</AltPhoneNumber>
+		<StreetAddress>840-2022 A Rd.</StreetAddress>
+		<City>Silvassa</City>
+		<State>OR</State>
+		<ZipCode>13848-553</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Denise</FirstName>
+		<LastName>Simpson</LastName>
+		<EmailAddress>Fusce@Sed.org</EmailAddress>
+		<PhoneNumber>(836) 156-7638</PhoneNumber>
+		<AltPhoneNumber>(472) 927-6766</AltPhoneNumber>
+		<StreetAddress>P.O. Box 150, 9299 Pede, Av.</StreetAddress>
+		<City>Bad Neuenahr-Ahrweiler</City>
+		<State>AL</State>
+		<ZipCode>7003</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Erasmus</FirstName>
+		<LastName>Downs</LastName>
+		<EmailAddress>tortor@mollis.edu</EmailAddress>
+		<PhoneNumber>(993) 106-7649</PhoneNumber>
+		<AltPhoneNumber>(150) 412-4518</AltPhoneNumber>
+		<StreetAddress>P.O. Box 905, 339 Ultrices Rd.</StreetAddress>
+		<City>Nieuwkapelle</City>
+		<State>TN</State>
+		<ZipCode>50105</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Wing</FirstName>
+		<LastName>Dunlap</LastName>
+		<EmailAddress>et.netus@Nullasemper.net</EmailAddress>
+		<PhoneNumber>(741) 160-6888</PhoneNumber>
+		<AltPhoneNumber>(696) 117-2679</AltPhoneNumber>
+		<StreetAddress>P.O. Box 909, 8404 Taciti Road</StreetAddress>
+		<City>Casole d'Elsa</City>
+		<State>PA</State>
+		<ZipCode>X9G 8K0</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Lani</FirstName>
+		<LastName>Delaney</LastName>
+		<EmailAddress>ipsum.ac@aultricies.net</EmailAddress>
+		<PhoneNumber>(899) 928-4844</PhoneNumber>
+		<AltPhoneNumber>(237) 295-6476</AltPhoneNumber>
+		<StreetAddress>P.O. Box 230, 5678 Sollicitudin St.</StreetAddress>
+		<City>Petrópolis</City>
+		<State>SD</State>
+		<ZipCode>35968</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Maisie</FirstName>
+		<LastName>Coleman</LastName>
+		<EmailAddress>Cras.vehicula@euneque.org</EmailAddress>
+		<PhoneNumber>(489) 960-8122</PhoneNumber>
+		<AltPhoneNumber>(638) 326-5835</AltPhoneNumber>
+		<StreetAddress>513-7314 Duis Street</StreetAddress>
+		<City>St. Paul</City>
+		<State>SC</State>
+		<ZipCode>4060</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Ainsley</FirstName>
+		<LastName>Cooke</LastName>
+		<EmailAddress>dapibus@inconsequatenim.edu</EmailAddress>
+		<PhoneNumber>(291) 690-5677</PhoneNumber>
+		<AltPhoneNumber>(628) 281-6773</AltPhoneNumber>
+		<StreetAddress>333-199 Sed Rd.</StreetAddress>
+		<City>Pozzuolo del Friuli</City>
+		<State>ME</State>
+		<ZipCode>92744</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Margaret</FirstName>
+		<LastName>Foster</LastName>
+		<EmailAddress>purus.Nullam.scelerisque@posuerecubilia.net</EmailAddress>
+		<PhoneNumber>(366) 711-4425</PhoneNumber>
+		<AltPhoneNumber>(480) 416-7458</AltPhoneNumber>
+		<StreetAddress>Ap #766-7661 Sit Avenue</StreetAddress>
+		<City>Gijzelbrechtegem</City>
+		<State>KY</State>
+		<ZipCode>547477</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Martin</FirstName>
+		<LastName>Huffman</LastName>
+		<EmailAddress>nisi@nibh.com</EmailAddress>
+		<PhoneNumber>(941) 751-4640</PhoneNumber>
+		<AltPhoneNumber>(867) 608-6438</AltPhoneNumber>
+		<StreetAddress>Ap #492-1301 Egestas St.</StreetAddress>
+		<City>Lochristi</City>
+		<State>PA</State>
+		<ZipCode>7199</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Ferris</FirstName>
+		<LastName>George</LastName>
+		<EmailAddress>penatibus@nasceturridiculus.net</EmailAddress>
+		<PhoneNumber>(154) 741-1642</PhoneNumber>
+		<AltPhoneNumber>(983) 191-3717</AltPhoneNumber>
+		<StreetAddress>6058 Nunc St.</StreetAddress>
+		<City>Leoben</City>
+		<State>TX</State>
+		<ZipCode>9050</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Dalton</FirstName>
+		<LastName>Jensen</LastName>
+		<EmailAddress>ligula.eu@sapien.ca</EmailAddress>
+		<PhoneNumber>(855) 737-2334</PhoneNumber>
+		<AltPhoneNumber>(607) 393-3986</AltPhoneNumber>
+		<StreetAddress>9744 Nulla Rd.</StreetAddress>
+		<City>Governador Valadares</City>
+		<State>DE</State>
+		<ZipCode>96595</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Mira</FirstName>
+		<LastName>Moss</LastName>
+		<EmailAddress>sapien@eratsemper.edu</EmailAddress>
+		<PhoneNumber>(111) 620-1558</PhoneNumber>
+		<AltPhoneNumber>(928) 854-9316</AltPhoneNumber>
+		<StreetAddress>534-9452 Nec St.</StreetAddress>
+		<City>Guilmi</City>
+		<State>PA</State>
+		<ZipCode>8722</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Rebecca</FirstName>
+		<LastName>Horton</LastName>
+		<EmailAddress>sed.leo.Cras@ullamcorper.ca</EmailAddress>
+		<PhoneNumber>(709) 664-9209</PhoneNumber>
+		<AltPhoneNumber>(681) 734-0903</AltPhoneNumber>
+		<StreetAddress>Ap #124-4129 Donec Rd.</StreetAddress>
+		<City>Carluke</City>
+		<State>RI</State>
+		<ZipCode>624914</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Asher</FirstName>
+		<LastName>Stout</LastName>
+		<EmailAddress>In.ornare@cursusetmagna.org</EmailAddress>
+		<PhoneNumber>(420) 710-0464</PhoneNumber>
+		<AltPhoneNumber>(870) 573-5305</AltPhoneNumber>
+		<StreetAddress>Ap #149-411 Mauris Av.</StreetAddress>
+		<City>Kaneohe</City>
+		<State>MD</State>
+		<ZipCode>59143</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Timothy</FirstName>
+		<LastName>Williamson</LastName>
+		<EmailAddress>Integer.sem@velit.co.uk</EmailAddress>
+		<PhoneNumber>(903) 426-8971</PhoneNumber>
+		<AltPhoneNumber>(337) 213-1767</AltPhoneNumber>
+		<StreetAddress>979-5179 Congue. Av.</StreetAddress>
+		<City>Nossegem</City>
+		<State>KY</State>
+		<ZipCode>1610</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Hope</FirstName>
+		<LastName>Knapp</LastName>
+		<EmailAddress>Mauris.nulla.Integer@Phaselluselit.co.uk</EmailAddress>
+		<PhoneNumber>(688) 993-3119</PhoneNumber>
+		<AltPhoneNumber>(994) 162-2824</AltPhoneNumber>
+		<StreetAddress>P.O. Box 397, 2345 Amet, Av.</StreetAddress>
+		<City>Harrison Hot Springs</City>
+		<State>DE</State>
+		<ZipCode>09307-756</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Jameson</FirstName>
+		<LastName>Henson</LastName>
+		<EmailAddress>sed.dictum@Aeneanegetmetus.com</EmailAddress>
+		<PhoneNumber>(715) 955-1409</PhoneNumber>
+		<AltPhoneNumber>(702) 845-7560</AltPhoneNumber>
+		<StreetAddress>P.O. Box 486, 6742 Malesuada. Rd.</StreetAddress>
+		<City>Fort Simpson</City>
+		<State>MN</State>
+		<ZipCode>87882</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Mechelle</FirstName>
+		<LastName>Glover</LastName>
+		<EmailAddress>dui@nonloremvitae.org</EmailAddress>
+		<PhoneNumber>(147) 823-3048</PhoneNumber>
+		<AltPhoneNumber>(378) 263-8531</AltPhoneNumber>
+		<StreetAddress>P.O. Box 799, 9633 Turpis Avenue</StreetAddress>
+		<City>Dworp</City>
+		<State>UT</State>
+		<ZipCode>L7X 8G9</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Alexis</FirstName>
+		<LastName>Johns</LastName>
+		<EmailAddress>eu.ultrices.sit@risusDonec.net</EmailAddress>
+		<PhoneNumber>(978) 610-4724</PhoneNumber>
+		<AltPhoneNumber>(110) 798-8316</AltPhoneNumber>
+		<StreetAddress>6658 Vitae St.</StreetAddress>
+		<City>Sinaai-Waas</City>
+		<State>MI</State>
+		<ZipCode>70602</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Perry</FirstName>
+		<LastName>Bird</LastName>
+		<EmailAddress>ridiculus.mus@tinciduntvehicula.co.uk</EmailAddress>
+		<PhoneNumber>(773) 467-3043</PhoneNumber>
+		<AltPhoneNumber>(738) 729-8820</AltPhoneNumber>
+		<StreetAddress>P.O. Box 204, 6170 Erat Rd.</StreetAddress>
+		<City>Bloomington</City>
+		<State>IN</State>
+		<ZipCode>894699</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Wyoming</FirstName>
+		<LastName>Christensen</LastName>
+		<EmailAddress>augue@Vivamus.co.uk</EmailAddress>
+		<PhoneNumber>(976) 949-5172</PhoneNumber>
+		<AltPhoneNumber>(705) 758-4987</AltPhoneNumber>
+		<StreetAddress>8613 Suspendisse St.</StreetAddress>
+		<City>Mont-sur-Marchienne</City>
+		<State>KS</State>
+		<ZipCode>189792</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Maggie</FirstName>
+		<LastName>Murray</LastName>
+		<EmailAddress>nascetur@malesuadaiderat.net</EmailAddress>
+		<PhoneNumber>(473) 252-2758</PhoneNumber>
+		<AltPhoneNumber>(135) 814-8378</AltPhoneNumber>
+		<StreetAddress>1036 Mauris Rd.</StreetAddress>
+		<City>Couture-Saint-Germain</City>
+		<State>NH</State>
+		<ZipCode>8841</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Carla</FirstName>
+		<LastName>Owen</LastName>
+		<EmailAddress>ipsum.nunc.id@habitantmorbi.com</EmailAddress>
+		<PhoneNumber>(800) 200-9041</PhoneNumber>
+		<AltPhoneNumber>(306) 506-9397</AltPhoneNumber>
+		<StreetAddress>Ap #577-7255 Scelerisque St.</StreetAddress>
+		<City>Bonavista</City>
+		<State>UT</State>
+		<ZipCode>H0E 4X5</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Gray</FirstName>
+		<LastName>Becker</LastName>
+		<EmailAddress>augue@eusem.org</EmailAddress>
+		<PhoneNumber>(130) 440-3645</PhoneNumber>
+		<AltPhoneNumber>(723) 859-3932</AltPhoneNumber>
+		<StreetAddress>Ap #384-7886 Vestibulum Av.</StreetAddress>
+		<City>Jonesboro</City>
+		<State>VT</State>
+		<ZipCode>5802</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Lillian</FirstName>
+		<LastName>Navarro</LastName>
+		<EmailAddress>amet.consectetuer.adipiscing@eleifendnuncrisus.org</EmailAddress>
+		<PhoneNumber>(429) 620-9998</PhoneNumber>
+		<AltPhoneNumber>(470) 239-0346</AltPhoneNumber>
+		<StreetAddress>Ap #465-4638 In Avenue</StreetAddress>
+		<City>Milestone</City>
+		<State>OH</State>
+		<ZipCode>P1S 1S4</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Eliana</FirstName>
+		<LastName>Thornton</LastName>
+		<EmailAddress>nisl.elementum.purus@et.org</EmailAddress>
+		<PhoneNumber>(573) 268-7655</PhoneNumber>
+		<AltPhoneNumber>(457) 950-6301</AltPhoneNumber>
+		<StreetAddress>Ap #581-7042 Fringilla St.</StreetAddress>
+		<City>Vlimmeren</City>
+		<State>IL</State>
+		<ZipCode>498679</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Keane</FirstName>
+		<LastName>Pugh</LastName>
+		<EmailAddress>risus.a@scelerisquemollisPhasellus.net</EmailAddress>
+		<PhoneNumber>(286) 415-7612</PhoneNumber>
+		<AltPhoneNumber>(542) 198-8214</AltPhoneNumber>
+		<StreetAddress>859-9039 Lectus St.</StreetAddress>
+		<City>Gent</City>
+		<State>NV</State>
+		<ZipCode>10419</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Caleb</FirstName>
+		<LastName>Meyers</LastName>
+		<EmailAddress>Aenean.euismod@amet.org</EmailAddress>
+		<PhoneNumber>(607) 846-9295</PhoneNumber>
+		<AltPhoneNumber>(184) 922-9012</AltPhoneNumber>
+		<StreetAddress>P.O. Box 430, 1881 Proin Avenue</StreetAddress>
+		<City>Iqaluit</City>
+		<State>MN</State>
+		<ZipCode>44407</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Bianca</FirstName>
+		<LastName>Wade</LastName>
+		<EmailAddress>pede.blandit@vel.com</EmailAddress>
+		<PhoneNumber>(998) 577-3403</PhoneNumber>
+		<AltPhoneNumber>(721) 536-0079</AltPhoneNumber>
+		<StreetAddress>864-2552 In Avenue</StreetAddress>
+		<City>Filignano</City>
+		<State>MD</State>
+		<ZipCode>69046</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Laith</FirstName>
+		<LastName>Blanchard</LastName>
+		<EmailAddress>egestas.Aliquam@Duis.net</EmailAddress>
+		<PhoneNumber>(236) 201-0737</PhoneNumber>
+		<AltPhoneNumber>(462) 852-7965</AltPhoneNumber>
+		<StreetAddress>P.O. Box 820, 865 Eget Ave</StreetAddress>
+		<City>Tamines</City>
+		<State>FL</State>
+		<ZipCode>5875JU</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Mary</FirstName>
+		<LastName>Yang</LastName>
+		<EmailAddress>at@mauris.net</EmailAddress>
+		<PhoneNumber>(362) 173-4367</PhoneNumber>
+		<AltPhoneNumber>(156) 799-1534</AltPhoneNumber>
+		<StreetAddress>P.O. Box 664, 3085 Ligula St.</StreetAddress>
+		<City>Haguenau</City>
+		<State>ME</State>
+		<ZipCode>06544-818</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Ian</FirstName>
+		<LastName>Cohen</LastName>
+		<EmailAddress>consectetuer.ipsum.nunc@risus.edu</EmailAddress>
+		<PhoneNumber>(535) 395-1058</PhoneNumber>
+		<AltPhoneNumber>(718) 916-5972</AltPhoneNumber>
+		<StreetAddress>248-8246 Aliquam Road</StreetAddress>
+		<City>Rae-Edzo</City>
+		<State>ND</State>
+		<ZipCode>634083</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Finn</FirstName>
+		<LastName>Peck</LastName>
+		<EmailAddress>Nulla@mauris.edu</EmailAddress>
+		<PhoneNumber>(882) 535-5031</PhoneNumber>
+		<AltPhoneNumber>(823) 597-4108</AltPhoneNumber>
+		<StreetAddress>271-7976 Nisi. Rd.</StreetAddress>
+		<City>Williams Lake</City>
+		<State>CA</State>
+		<ZipCode>6430MM</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Nell</FirstName>
+		<LastName>Donovan</LastName>
+		<EmailAddress>Phasellus.fermentum.convallis@imperdietnec.net</EmailAddress>
+		<PhoneNumber>(858) 151-0513</PhoneNumber>
+		<AltPhoneNumber>(255) 309-9555</AltPhoneNumber>
+		<StreetAddress>P.O. Box 354, 5125 Egestas, Rd.</StreetAddress>
+		<City>Inuvik</City>
+		<State>NY</State>
+		<ZipCode>25804</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Beau</FirstName>
+		<LastName>Love</LastName>
+		<EmailAddress>luctus@nisimagna.org</EmailAddress>
+		<PhoneNumber>(851) 279-6840</PhoneNumber>
+		<AltPhoneNumber>(351) 221-3290</AltPhoneNumber>
+		<StreetAddress>Ap #343-8656 Ipsum St.</StreetAddress>
+		<City>Court-Saint-Etienne</City>
+		<State>IL</State>
+		<ZipCode>8306</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Michelle</FirstName>
+		<LastName>Maddox</LastName>
+		<EmailAddress>felis@estmollis.edu</EmailAddress>
+		<PhoneNumber>(596) 288-3701</PhoneNumber>
+		<AltPhoneNumber>(318) 940-2702</AltPhoneNumber>
+		<StreetAddress>6682 Et St.</StreetAddress>
+		<City>Friedrichshafen</City>
+		<State>NC</State>
+		<ZipCode>H9M 6A2</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Rosalyn</FirstName>
+		<LastName>Chaney</LastName>
+		<EmailAddress>Aenean.massa.Integer@vulputateposuerevulputate.edu</EmailAddress>
+		<PhoneNumber>(761) 317-3523</PhoneNumber>
+		<AltPhoneNumber>(968) 182-6065</AltPhoneNumber>
+		<StreetAddress>Ap #571-1719 Adipiscing Av.</StreetAddress>
+		<City>Castelvetere in Val Fortore</City>
+		<State>VT</State>
+		<ZipCode>11902</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Jesse</FirstName>
+		<LastName>Barton</LastName>
+		<EmailAddress>dolor.quam@mattissemper.com</EmailAddress>
+		<PhoneNumber>(246) 675-3458</PhoneNumber>
+		<AltPhoneNumber>(917) 305-2814</AltPhoneNumber>
+		<StreetAddress>P.O. Box 982, 3417 Nunc Road</StreetAddress>
+		<City>Civitacampomarano</City>
+		<State>OR</State>
+		<ZipCode>9887VF</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Daquan</FirstName>
+		<LastName>Calhoun</LastName>
+		<EmailAddress>magna.Cras@dolordapibus.com</EmailAddress>
+		<PhoneNumber>(537) 135-0302</PhoneNumber>
+		<AltPhoneNumber>(514) 190-7121</AltPhoneNumber>
+		<StreetAddress>358-2679 Ultricies Rd.</StreetAddress>
+		<City>Rajkot</City>
+		<State>KY</State>
+		<ZipCode>C7A 2Z6</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Rogan</FirstName>
+		<LastName>Mays</LastName>
+		<EmailAddress>vitae.odio@variusNam.com</EmailAddress>
+		<PhoneNumber>(998) 734-0366</PhoneNumber>
+		<AltPhoneNumber>(609) 926-8617</AltPhoneNumber>
+		<StreetAddress>P.O. Box 163, 5258 Lorem Avenue</StreetAddress>
+		<City>Noville</City>
+		<State>WY</State>
+		<ZipCode>6725</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Camilla</FirstName>
+		<LastName>Kramer</LastName>
+		<EmailAddress>dolor.Fusce.feugiat@quam.net</EmailAddress>
+		<PhoneNumber>(383) 821-3457</PhoneNumber>
+		<AltPhoneNumber>(126) 965-7686</AltPhoneNumber>
+		<StreetAddress>2747 Nulla Rd.</StreetAddress>
+		<City>San Juan de Dios</City>
+		<State>WY</State>
+		<ZipCode>61706</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Celeste</FirstName>
+		<LastName>Knapp</LastName>
+		<EmailAddress>libero.Integer@dapibusgravida.net</EmailAddress>
+		<PhoneNumber>(628) 137-8497</PhoneNumber>
+		<AltPhoneNumber>(174) 275-3562</AltPhoneNumber>
+		<StreetAddress>5628 Donec Rd.</StreetAddress>
+		<City>Bevel</City>
+		<State>MA</State>
+		<ZipCode>5755</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Maia</FirstName>
+		<LastName>Mcgee</LastName>
+		<EmailAddress>malesuada@Sed.com</EmailAddress>
+		<PhoneNumber>(265) 792-1163</PhoneNumber>
+		<AltPhoneNumber>(391) 659-7458</AltPhoneNumber>
+		<StreetAddress>Ap #294-8743 Tempor St.</StreetAddress>
+		<City>San Donato di Ninea</City>
+		<State>GA</State>
+		<ZipCode>W8 6IT</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Anastasia</FirstName>
+		<LastName>Wooten</LastName>
+		<EmailAddress>Suspendisse.dui@elitpellentesquea.co.uk</EmailAddress>
+		<PhoneNumber>(278) 241-3647</PhoneNumber>
+		<AltPhoneNumber>(556) 543-5919</AltPhoneNumber>
+		<StreetAddress>P.O. Box 530, 302 Ac Road</StreetAddress>
+		<City>Schifferstadt</City>
+		<State>AR</State>
+		<ZipCode>76764</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Marvin</FirstName>
+		<LastName>Meadows</LastName>
+		<EmailAddress>vel.arcu@diamDuismi.net</EmailAddress>
+		<PhoneNumber>(455) 118-5262</PhoneNumber>
+		<AltPhoneNumber>(695) 471-8861</AltPhoneNumber>
+		<StreetAddress>P.O. Box 617, 8467 Elementum Ave</StreetAddress>
+		<City>Hamburg</City>
+		<State>MD</State>
+		<ZipCode>26126</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Lane</FirstName>
+		<LastName>Guerra</LastName>
+		<EmailAddress>ullamcorper.Duis.at@tinciduntvehicularisus.co.uk</EmailAddress>
+		<PhoneNumber>(898) 471-2886</PhoneNumber>
+		<AltPhoneNumber>(988) 624-2622</AltPhoneNumber>
+		<StreetAddress>P.O. Box 950, 443 Nec Avenue</StreetAddress>
+		<City>Bouge</City>
+		<State>NC</State>
+		<ZipCode>323408</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Deacon</FirstName>
+		<LastName>Lloyd</LastName>
+		<EmailAddress>eleifend.non@dictumultricies.co.uk</EmailAddress>
+		<PhoneNumber>(535) 907-6574</PhoneNumber>
+		<AltPhoneNumber>(251) 378-4755</AltPhoneNumber>
+		<StreetAddress>827-4499 Donec Street</StreetAddress>
+		<City>Argyle</City>
+		<State>ME</State>
+		<ZipCode>44984</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Berk</FirstName>
+		<LastName>Carey</LastName>
+		<EmailAddress>vitae.erat.Vivamus@blandit.net</EmailAddress>
+		<PhoneNumber>(783) 405-8269</PhoneNumber>
+		<AltPhoneNumber>(836) 673-4509</AltPhoneNumber>
+		<StreetAddress>P.O. Box 378, 9291 Porttitor Street</StreetAddress>
+		<City>Wijshagen</City>
+		<State>WV</State>
+		<ZipCode>9487</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Diana</FirstName>
+		<LastName>Castillo</LastName>
+		<EmailAddress>nisi@mollisvitaeposuere.com</EmailAddress>
+		<PhoneNumber>(869) 492-5688</PhoneNumber>
+		<AltPhoneNumber>(337) 146-2921</AltPhoneNumber>
+		<StreetAddress>212-683 Rutrum Street</StreetAddress>
+		<City>Vandoeuvre-lès-Nancy</City>
+		<State>FL</State>
+		<ZipCode>C4A 1R1</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Kirestin</FirstName>
+		<LastName>Velasquez</LastName>
+		<EmailAddress>nonummy.ac.feugiat@Aeneaneuismodmauris.co.uk</EmailAddress>
+		<PhoneNumber>(870) 356-3948</PhoneNumber>
+		<AltPhoneNumber>(844) 817-1673</AltPhoneNumber>
+		<StreetAddress>4274 Sem St.</StreetAddress>
+		<City>Enns</City>
+		<State>IA</State>
+		<ZipCode>9383</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Lavinia</FirstName>
+		<LastName>Mack</LastName>
+		<EmailAddress>luctus@elitpede.ca</EmailAddress>
+		<PhoneNumber>(627) 923-0487</PhoneNumber>
+		<AltPhoneNumber>(856) 151-2342</AltPhoneNumber>
+		<StreetAddress>P.O. Box 711, 8567 Sodales Road</StreetAddress>
+		<City>Asigliano Veneto</City>
+		<State>NY</State>
+		<ZipCode>2201</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Kuame</FirstName>
+		<LastName>Camacho</LastName>
+		<EmailAddress>cursus@ornareInfaucibus.com</EmailAddress>
+		<PhoneNumber>(449) 780-8517</PhoneNumber>
+		<AltPhoneNumber>(244) 529-9127</AltPhoneNumber>
+		<StreetAddress>7686 Cum St.</StreetAddress>
+		<City>Sint-Pieters-Leeuw</City>
+		<State>IA</State>
+		<ZipCode>50567</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Frances</FirstName>
+		<LastName>Humphrey</LastName>
+		<EmailAddress>mollis@Phasellus.ca</EmailAddress>
+		<PhoneNumber>(727) 457-2232</PhoneNumber>
+		<AltPhoneNumber>(462) 187-1269</AltPhoneNumber>
+		<StreetAddress>Ap #516-2946 Et, St.</StreetAddress>
+		<City>Jalgaon</City>
+		<State>AZ</State>
+		<ZipCode>SF9 3TR</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Amela</FirstName>
+		<LastName>Rhodes</LastName>
+		<EmailAddress>libero@miAliquamgravida.com</EmailAddress>
+		<PhoneNumber>(508) 273-3246</PhoneNumber>
+		<AltPhoneNumber>(119) 120-0377</AltPhoneNumber>
+		<StreetAddress>P.O. Box 498, 9004 Dui. Av.</StreetAddress>
+		<City>Rupelmonde</City>
+		<State>KS</State>
+		<ZipCode>4708SI</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Arthur</FirstName>
+		<LastName>Mercer</LastName>
+		<EmailAddress>luctus.aliquet.odio@cursusdiamat.org</EmailAddress>
+		<PhoneNumber>(774) 783-8924</PhoneNumber>
+		<AltPhoneNumber>(521) 605-4249</AltPhoneNumber>
+		<StreetAddress>P.O. Box 343, 8624 Nec Av.</StreetAddress>
+		<City>North Dum Dum</City>
+		<State>CA</State>
+		<ZipCode>74290</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Drake</FirstName>
+		<LastName>Potter</LastName>
+		<EmailAddress>nisi.magna.sed@vulputaterisusa.org</EmailAddress>
+		<PhoneNumber>(586) 288-2077</PhoneNumber>
+		<AltPhoneNumber>(487) 890-9940</AltPhoneNumber>
+		<StreetAddress>900-8841 A Av.</StreetAddress>
+		<City>Paderborn</City>
+		<State>RI</State>
+		<ZipCode>504007</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Nero</FirstName>
+		<LastName>Gordon</LastName>
+		<EmailAddress>eu@nisl.edu</EmailAddress>
+		<PhoneNumber>(451) 278-0594</PhoneNumber>
+		<AltPhoneNumber>(820) 843-3802</AltPhoneNumber>
+		<StreetAddress>2689 Massa. Rd.</StreetAddress>
+		<City>Grantham</City>
+		<State>CA</State>
+		<ZipCode>1117</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Kathleen</FirstName>
+		<LastName>Bowman</LastName>
+		<EmailAddress>pellentesque@enim.org</EmailAddress>
+		<PhoneNumber>(684) 579-6731</PhoneNumber>
+		<AltPhoneNumber>(633) 521-5981</AltPhoneNumber>
+		<StreetAddress>P.O. Box 464, 9420 Neque. Avenue</StreetAddress>
+		<City>Lehrte</City>
+		<State>HI</State>
+		<ZipCode>57758</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Tiger</FirstName>
+		<LastName>Bates</LastName>
+		<EmailAddress>ligula.Aliquam.erat@mauris.org</EmailAddress>
+		<PhoneNumber>(326) 130-8161</PhoneNumber>
+		<AltPhoneNumber>(386) 153-9100</AltPhoneNumber>
+		<StreetAddress>P.O. Box 684, 6967 Et Road</StreetAddress>
+		<City>Lonzee</City>
+		<State>OR</State>
+		<ZipCode>F75 7GU</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Galvin</FirstName>
+		<LastName>Mcdowell</LastName>
+		<EmailAddress>aliquam.iaculis@Aliquameratvolutpat.co.uk</EmailAddress>
+		<PhoneNumber>(706) 326-8544</PhoneNumber>
+		<AltPhoneNumber>(712) 138-7248</AltPhoneNumber>
+		<StreetAddress>Ap #912-8919 Sit Street</StreetAddress>
+		<City>Kohima</City>
+		<State>OH</State>
+		<ZipCode>214181</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Scarlet</FirstName>
+		<LastName>Frazier</LastName>
+		<EmailAddress>nunc@Duis.com</EmailAddress>
+		<PhoneNumber>(244) 736-6452</PhoneNumber>
+		<AltPhoneNumber>(706) 603-7912</AltPhoneNumber>
+		<StreetAddress>P.O. Box 283, 8809 Eu, Road</StreetAddress>
+		<City>Smithers</City>
+		<State>MD</State>
+		<ZipCode>16144-373</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Holmes</FirstName>
+		<LastName>Randall</LastName>
+		<EmailAddress>nisl@massarutrum.ca</EmailAddress>
+		<PhoneNumber>(814) 203-5345</PhoneNumber>
+		<AltPhoneNumber>(352) 962-1553</AltPhoneNumber>
+		<StreetAddress>889-9934 Morbi Rd.</StreetAddress>
+		<City>Timkur</City>
+		<State>NY</State>
+		<ZipCode>1864YJ</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Joelle</FirstName>
+		<LastName>Zamora</LastName>
+		<EmailAddress>nulla@tempor.edu</EmailAddress>
+		<PhoneNumber>(174) 294-6117</PhoneNumber>
+		<AltPhoneNumber>(566) 706-1907</AltPhoneNumber>
+		<StreetAddress>6180 Eget Rd.</StreetAddress>
+		<City>Mirzapur-cum-Vindhyachal</City>
+		<State>VT</State>
+		<ZipCode>51003</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Evangeline</FirstName>
+		<LastName>Nieves</LastName>
+		<EmailAddress>sed@Nullamutnisi.ca</EmailAddress>
+		<PhoneNumber>(456) 187-7237</PhoneNumber>
+		<AltPhoneNumber>(644) 148-4897</AltPhoneNumber>
+		<StreetAddress>9492 Et Street</StreetAddress>
+		<City>Tintigny</City>
+		<State>TX</State>
+		<ZipCode>19-144</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Iris</FirstName>
+		<LastName>Webb</LastName>
+		<EmailAddress>eu@nullaIn.edu</EmailAddress>
+		<PhoneNumber>(959) 195-1808</PhoneNumber>
+		<AltPhoneNumber>(598) 901-6673</AltPhoneNumber>
+		<StreetAddress>Ap #160-6794 Pellentesque. St.</StreetAddress>
+		<City>Lebach</City>
+		<State>MN</State>
+		<ZipCode>7528</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Brennan</FirstName>
+		<LastName>Hull</LastName>
+		<EmailAddress>a@et.net</EmailAddress>
+		<PhoneNumber>(369) 369-4484</PhoneNumber>
+		<AltPhoneNumber>(166) 823-5322</AltPhoneNumber>
+		<StreetAddress>Ap #901-8209 Libero St.</StreetAddress>
+		<City>G�strow</City>
+		<State>NV</State>
+		<ZipCode>43558-126</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Azalia</FirstName>
+		<LastName>Velasquez</LastName>
+		<EmailAddress>In@Suspendissenonleo.net</EmailAddress>
+		<PhoneNumber>(435) 139-4149</PhoneNumber>
+		<AltPhoneNumber>(546) 161-7452</AltPhoneNumber>
+		<StreetAddress>Ap #658-142 Malesuada Rd.</StreetAddress>
+		<City>Landshut</City>
+		<State>IL</State>
+		<ZipCode>38471</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Garrett</FirstName>
+		<LastName>Wells</LastName>
+		<EmailAddress>ac.sem.ut@atsem.com</EmailAddress>
+		<PhoneNumber>(574) 274-0672</PhoneNumber>
+		<AltPhoneNumber>(139) 558-1133</AltPhoneNumber>
+		<StreetAddress>Ap #112-3947 Iaculis St.</StreetAddress>
+		<City>Canino</City>
+		<State>AK</State>
+		<ZipCode>4408</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Ashely</FirstName>
+		<LastName>Dunn</LastName>
+		<EmailAddress>tortor.nibh@mollisnoncursus.co.uk</EmailAddress>
+		<PhoneNumber>(936) 805-5324</PhoneNumber>
+		<AltPhoneNumber>(499) 462-5853</AltPhoneNumber>
+		<StreetAddress>970-5037 At, St.</StreetAddress>
+		<City>Massello</City>
+		<State>WV</State>
+		<ZipCode>72555</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Naomi</FirstName>
+		<LastName>Carlson</LastName>
+		<EmailAddress>magnis.dis@ametmassa.edu</EmailAddress>
+		<PhoneNumber>(313) 648-4772</PhoneNumber>
+		<AltPhoneNumber>(608) 502-8806</AltPhoneNumber>
+		<StreetAddress>P.O. Box 974, 3214 Convallis Road</StreetAddress>
+		<City>Santa Maria</City>
+		<State>OR</State>
+		<ZipCode>52958</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Myles</FirstName>
+		<LastName>Fernandez</LastName>
+		<EmailAddress>sem@Quisquepurus.net</EmailAddress>
+		<PhoneNumber>(355) 139-7572</PhoneNumber>
+		<AltPhoneNumber>(985) 287-9368</AltPhoneNumber>
+		<StreetAddress>560-5596 Pede, Road</StreetAddress>
+		<City>Tulita</City>
+		<State>TX</State>
+		<ZipCode>4518</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Violet</FirstName>
+		<LastName>Dillard</LastName>
+		<EmailAddress>In.faucibus@sit.net</EmailAddress>
+		<PhoneNumber>(238) 808-4011</PhoneNumber>
+		<AltPhoneNumber>(366) 888-9806</AltPhoneNumber>
+		<StreetAddress>Ap #460-380 Magna St.</StreetAddress>
+		<City>Cumberland County</City>
+		<State>CO</State>
+		<ZipCode>Z9L 8NL</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Fuller</FirstName>
+		<LastName>Callahan</LastName>
+		<EmailAddress>egestas.Fusce.aliquet@dictumultricies.ca</EmailAddress>
+		<PhoneNumber>(119) 627-0074</PhoneNumber>
+		<AltPhoneNumber>(274) 492-0576</AltPhoneNumber>
+		<StreetAddress>Ap #505-5314 Luctus Av.</StreetAddress>
+		<City>Kingston</City>
+		<State>MI</State>
+		<ZipCode>738872</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Penelope</FirstName>
+		<LastName>Robertson</LastName>
+		<EmailAddress>tristique@Duisat.net</EmailAddress>
+		<PhoneNumber>(765) 235-7048</PhoneNumber>
+		<AltPhoneNumber>(918) 665-7496</AltPhoneNumber>
+		<StreetAddress>5982 Vestibulum St.</StreetAddress>
+		<City>Hines Creek</City>
+		<State>ID</State>
+		<ZipCode>49798</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Gabriel</FirstName>
+		<LastName>Lang</LastName>
+		<EmailAddress>Nunc.ut.erat@Nuncsollicitudin.edu</EmailAddress>
+		<PhoneNumber>(313) 675-0408</PhoneNumber>
+		<AltPhoneNumber>(119) 162-4738</AltPhoneNumber>
+		<StreetAddress>Ap #532-122 Enim Road</StreetAddress>
+		<City>San Massimo</City>
+		<State>WI</State>
+		<ZipCode>60403</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Kevin</FirstName>
+		<LastName>Rice</LastName>
+		<EmailAddress>nostra.per.inceptos@apurusDuis.co.uk</EmailAddress>
+		<PhoneNumber>(321) 903-3860</PhoneNumber>
+		<AltPhoneNumber>(392) 451-1404</AltPhoneNumber>
+		<StreetAddress>P.O. Box 416, 3086 Ullamcorper St.</StreetAddress>
+		<City>Bridgnorth</City>
+		<State>HI</State>
+		<ZipCode>04200</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Lane</FirstName>
+		<LastName>Ballard</LastName>
+		<EmailAddress>Nunc@nullaDonecnon.com</EmailAddress>
+		<PhoneNumber>(973) 400-7450</PhoneNumber>
+		<AltPhoneNumber>(545) 830-0427</AltPhoneNumber>
+		<StreetAddress>P.O. Box 276, 5866 Eros. Street</StreetAddress>
+		<City>Tramonti di Sopra</City>
+		<State>OH</State>
+		<ZipCode>11912</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Mollie</FirstName>
+		<LastName>Benson</LastName>
+		<EmailAddress>eu.turpis.Nulla@musProinvel.com</EmailAddress>
+		<PhoneNumber>(234) 517-8965</PhoneNumber>
+		<AltPhoneNumber>(719) 521-2915</AltPhoneNumber>
+		<StreetAddress>8995 Nunc. Rd.</StreetAddress>
+		<City>Casoli</City>
+		<State>WY</State>
+		<ZipCode>PJ4B 2YS</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Nevada</FirstName>
+		<LastName>Calderon</LastName>
+		<EmailAddress>euismod.urna@tellussem.co.uk</EmailAddress>
+		<PhoneNumber>(636) 828-7585</PhoneNumber>
+		<AltPhoneNumber>(399) 676-0494</AltPhoneNumber>
+		<StreetAddress>656-2924 Odio, Street</StreetAddress>
+		<City>Portland</City>
+		<State>AK</State>
+		<ZipCode>87153</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Nissim</FirstName>
+		<LastName>Hines</LastName>
+		<EmailAddress>Sed.pharetra.felis@gravida.edu</EmailAddress>
+		<PhoneNumber>(882) 910-5962</PhoneNumber>
+		<AltPhoneNumber>(776) 416-6102</AltPhoneNumber>
+		<StreetAddress>392-5088 Lectus. St.</StreetAddress>
+		<City>Huntsville</City>
+		<State>TN</State>
+		<ZipCode>46-580</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Richard</FirstName>
+		<LastName>Hodge</LastName>
+		<EmailAddress>lacus.Nulla@velitegestas.ca</EmailAddress>
+		<PhoneNumber>(213) 857-6612</PhoneNumber>
+		<AltPhoneNumber>(820) 831-0205</AltPhoneNumber>
+		<StreetAddress>Ap #269-754 Interdum. Ave</StreetAddress>
+		<City>Ingolstadt</City>
+		<State>CT</State>
+		<ZipCode>00926-702</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Kelly</FirstName>
+		<LastName>Stout</LastName>
+		<EmailAddress>Curabitur.dictum@eget.org</EmailAddress>
+		<PhoneNumber>(543) 936-9117</PhoneNumber>
+		<AltPhoneNumber>(303) 710-5288</AltPhoneNumber>
+		<StreetAddress>Ap #447-568 Sodales Av.</StreetAddress>
+		<City>Ajmer</City>
+		<State>AR</State>
+		<ZipCode>53149</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Mannix</FirstName>
+		<LastName>Vargas</LastName>
+		<EmailAddress>tempor.arcu@afacilisisnon.org</EmailAddress>
+		<PhoneNumber>(992) 783-1032</PhoneNumber>
+		<AltPhoneNumber>(399) 430-9585</AltPhoneNumber>
+		<StreetAddress>Ap #616-7031 Sed Rd.</StreetAddress>
+		<City>Rionero in Vulture</City>
+		<State>UT</State>
+		<ZipCode>1848VH</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Nathan</FirstName>
+		<LastName>Harvey</LastName>
+		<EmailAddress>ad.litora.torquent@Morbiquis.co.uk</EmailAddress>
+		<PhoneNumber>(919) 820-9646</PhoneNumber>
+		<AltPhoneNumber>(539) 722-8974</AltPhoneNumber>
+		<StreetAddress>9084 Ut Road</StreetAddress>
+		<City>Ipatinga</City>
+		<State>VA</State>
+		<ZipCode>9912RM</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Yardley</FirstName>
+		<LastName>Buchanan</LastName>
+		<EmailAddress>facilisis.facilisis@ultricesVivamusrhoncus.net</EmailAddress>
+		<PhoneNumber>(733) 606-3520</PhoneNumber>
+		<AltPhoneNumber>(855) 279-7428</AltPhoneNumber>
+		<StreetAddress>P.O. Box 376, 9943 Posuere, St.</StreetAddress>
+		<City>Gomz�-Andoumont</City>
+		<State>KS</State>
+		<ZipCode>6115</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Jenette</FirstName>
+		<LastName>Velazquez</LastName>
+		<EmailAddress>convallis.ante.lectus@enim.edu</EmailAddress>
+		<PhoneNumber>(210) 721-1349</PhoneNumber>
+		<AltPhoneNumber>(802) 300-3907</AltPhoneNumber>
+		<StreetAddress>Ap #794-8520 Pellentesque Avenue</StreetAddress>
+		<City>Bondo</City>
+		<State>NH</State>
+		<ZipCode>183318</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Moses</FirstName>
+		<LastName>Simpson</LastName>
+		<EmailAddress>ipsum.nunc@velit.co.uk</EmailAddress>
+		<PhoneNumber>(852) 359-3537</PhoneNumber>
+		<AltPhoneNumber>(418) 767-3688</AltPhoneNumber>
+		<StreetAddress>Ap #163-8525 Curabitur St.</StreetAddress>
+		<City>Ucluelet</City>
+		<State>NC</State>
+		<ZipCode>5644</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Mallory</FirstName>
+		<LastName>Castro</LastName>
+		<EmailAddress>parturient.montes@purusinmolestie.co.uk</EmailAddress>
+		<PhoneNumber>(235) 697-7883</PhoneNumber>
+		<AltPhoneNumber>(531) 392-7517</AltPhoneNumber>
+		<StreetAddress>935-6520 At Av.</StreetAddress>
+		<City>Soye</City>
+		<State>MN</State>
+		<ZipCode>4341</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Hermione</FirstName>
+		<LastName>Daniel</LastName>
+		<EmailAddress>cursus@cubilia.ca</EmailAddress>
+		<PhoneNumber>(120) 234-3557</PhoneNumber>
+		<AltPhoneNumber>(490) 728-6142</AltPhoneNumber>
+		<StreetAddress>P.O. Box 696, 6112 Fringilla Street</StreetAddress>
+		<City>Toledo</City>
+		<State>UT</State>
+		<ZipCode>P8C 4YL</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Patrick</FirstName>
+		<LastName>Tanner</LastName>
+		<EmailAddress>neque.pellentesque.massa@lectusCumsociis.com</EmailAddress>
+		<PhoneNumber>(442) 673-4123</PhoneNumber>
+		<AltPhoneNumber>(728) 311-6418</AltPhoneNumber>
+		<StreetAddress>2908 Cursus Avenue</StreetAddress>
+		<City>Bosa</City>
+		<State>AZ</State>
+		<ZipCode>346420</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Cadman</FirstName>
+		<LastName>Mendoza</LastName>
+		<EmailAddress>tincidunt.pede@commodo.co.uk</EmailAddress>
+		<PhoneNumber>(154) 566-3224</PhoneNumber>
+		<AltPhoneNumber>(494) 655-1364</AltPhoneNumber>
+		<StreetAddress>Ap #594-487 Nisi Av.</StreetAddress>
+		<City>Crawley</City>
+		<State>CA</State>
+		<ZipCode>827325</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Harlan</FirstName>
+		<LastName>Walls</LastName>
+		<EmailAddress>malesuada@dictum.ca</EmailAddress>
+		<PhoneNumber>(561) 567-6893</PhoneNumber>
+		<AltPhoneNumber>(279) 254-8245</AltPhoneNumber>
+		<StreetAddress>800-7557 Sit Av.</StreetAddress>
+		<City>Namur</City>
+		<State>OR</State>
+		<ZipCode>28429</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Keith</FirstName>
+		<LastName>Greene</LastName>
+		<EmailAddress>erat.vel@Morbivehicula.co.uk</EmailAddress>
+		<PhoneNumber>(630) 805-6440</PhoneNumber>
+		<AltPhoneNumber>(842) 353-4023</AltPhoneNumber>
+		<StreetAddress>P.O. Box 347, 4748 Bibendum Rd.</StreetAddress>
+		<City>Le Petit-Quevilly</City>
+		<State>OH</State>
+		<ZipCode>725431</ZipCode>
+	</customer>
+	<customer>
+		<FirstName>Nerea</FirstName>
+		<LastName>Lynch</LastName>
+		<EmailAddress>ornare@ametrisusDonec.co.uk</EmailAddress>
+		<PhoneNumber>(235) 894-5278</PhoneNumber>
+		<AltPhoneNumber>(830) 377-6851</AltPhoneNumber>
+		<StreetAddress>P.O. Box 592, 5703 Elit Road</StreetAddress>
+		<City>Lleida</City>
+		<State>UT</State>
+		<ZipCode>2666</ZipCode>
+	</customer>
+</customers>
