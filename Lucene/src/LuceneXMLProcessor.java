@@ -34,11 +34,9 @@ public class LuceneXMLProcessor
 	    
 	    w.close();
 	    
-		String querystr = args.length > 0 ? args[0] : "A";
+		String querystr = args.length > 0 ? args[0] : "Holcomb";
 	
-	    Query q = new QueryParser(Version.LUCENE_40, "LastName", analyzer).parse(querystr);
-	    
-	    CustomerDocuments cDocuments = new CustomerDocuments();   
+	    Query q = new QueryParser(Version.LUCENE_40, "LastName", analyzer).parse(querystr); 
 	    
 	    int hitsPerPage = 1000;
 	    IndexReader reader = DirectoryReader.open(index);

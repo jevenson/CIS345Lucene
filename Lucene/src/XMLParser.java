@@ -9,9 +9,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-public class CustomerXMLParser 
+public class XMLParser 
 {
-	public static NodeList parseCustomerFile(String filePath) throws ParserConfigurationException, SAXException, IOException 
+	public static NodeList parseXMLFile(String filePath, String objectType) throws ParserConfigurationException, SAXException, IOException 
 	{	
 		File file = new File(filePath);
 		
@@ -21,6 +21,6 @@ public class CustomerXMLParser
 		
 		doc.getDocumentElement().normalize();
 		
-		return doc.getElementsByTagName("customer");
+		return doc.getElementsByTagName(objectType);
 	}
 }
