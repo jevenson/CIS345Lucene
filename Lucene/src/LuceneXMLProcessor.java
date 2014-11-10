@@ -1,8 +1,8 @@
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
-import org.apache.lucene.document.Field;
-import org.apache.lucene.document.StringField;
-import org.apache.lucene.document.TextField;
+//import org.apache.lucene.document.Field;
+//import org.apache.lucene.document.StringField;
+//import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
@@ -19,14 +19,13 @@ import org.apache.lucene.util.Version;
 
 import java.io.IOException;
 
-@SuppressWarnings("unused")
 public class LuceneXMLProcessor
 {
 	@SuppressWarnings("deprecation")
 	//Optional Arguments
 	//Argument 1 (book || customer)
 	//Argument 2 lucene search query
-	public static void main(String[] args) throws ParseException, IOException 
+	public static String[] GO(String[] args) throws ParseException, IOException 
 	{
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 	    Directory index = new RAMDirectory();
@@ -62,16 +61,20 @@ public class LuceneXMLProcessor
 	    searcher.search(q, collector);
 	    ScoreDoc[] hits = collector.topDocs().scoreDocs;
 	    
-	    System.out.println("Found " + hits.length + " hits.");
+	    String[] results = new String[10];
+	    
+	    //System.out.println("Found " + hits.length + " hits.");
 	    
 	    for (int i = 0; i < hits.length; ++i) {
 	      int docId = hits[i].doc;
 	      Document d = searcher.doc(docId);
-	      
-	      System.out.println((i + 1) + ". \t" + d.get("FirstName") + " " + d.get("LastName") + "\t\t" + d.get("EmailAddress"));
+	      results [i] = d.get("FirstName");
+	      //System.out.println((i + 1) + ". \t" + d.get("FirstName") + " " + d.get("LastName") + "\t\t" + d.get("EmailAddress"));
 	    }
 
 	    reader.close();
+	    
+	    return results;
 	    
 	}
 }
