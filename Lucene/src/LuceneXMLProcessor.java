@@ -25,15 +25,13 @@ public class LuceneXMLProcessor
 	//Optional Arguments
 	//Argument 1 (book || customer)
 	//Argument 2 lucene search query
-	public static String[] GO(String[] args) throws ParseException, IOException 
+	public static String[] GO(String objectType, String querystr) throws ParseException, IOException 
 	{
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 	    Directory index = new RAMDirectory();
 	    IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
 	    IndexWriter w = new IndexWriter(index, config);
 	    
-	    String objectType = args.length > 0 ? args[0] : "customer";
-	    String querystr = args.length > 0 ? args[1] : "Holcomb";
 	    Query q = null;
 	    
 	    if (objectType.equals("book")) {	    	
