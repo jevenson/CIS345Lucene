@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Jon/Google Drive/School/2014 2 Fall/WDMD 345/Course Project/Lucene.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Lucene/jarDescription.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/Lucene/Manifest" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/Lucene/.classpath"/>
+        <file path="/Lucene/.gitignore"/>
+        <file path="/Lucene/Manifest"/>
+        <file path="/Lucene/.project"/>
+        <javaElement handleIdentifier="=Lucene/src"/>
+    </selectedElements>
+</jardesc>
