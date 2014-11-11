@@ -18,39 +18,33 @@ import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class LuceneXMLProcessor
 {
 	@SuppressWarnings("deprecation")
 	//Optional Arguments
-	//Argument 1 (book || customer)
+	//Argument 1 file directory
 	//Argument 2 lucene search query
-	public static String[] GO(String objectType, String querystr) throws ParseException, IOException 
+	public static String[] GO(String directory, String querystr) throws ParseException, IOException 
 	{
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 	    Directory index = new RAMDirectory();
 	    IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
+	    
 	    IndexWriter w = new IndexWriter(index, config);
 	    
-	    Query q = null;
-	    
-	    if (objectType.equals("book")) {	    	
-	    	for (int i = 1; i <= 50; i++) {
-	    		BookDocuments.addDoc(w, ".\\xml\\books\\book" + i + ".xml");
-	    	}
-	    	
-	    	q = new QueryParser(Version.LUCENE_40, "Title", analyzer).parse(querystr); 
-	    } else {
-	    	for (int i = 1; i <= 50; i++) {
-	    		CustomerDocuments.addDoc(w, ".\\xml\\customers\\customers" + i + ".xml");
-	    	}
-	    	
-	    	q = new QueryParser(Version.LUCENE_40, "LastName", analyzer).parse(querystr);
-	    }
-	    
+	    Files.walk(Paths.get(directory)).forEach(filePath -> {
+	        if (Files.isRegularFile(filePath)) 
+	        {
+	            LuceneDocumentBuilder.addDoc(w, filePath.toString());
+	        }
+	    });	 
+		    
 	    w.close();
-	    
 	
+	    Query q = new QueryParser("", analyzer).parse(querystr);
 	    
 	    int hitsPerPage = 1000;
 	    IndexReader reader = DirectoryReader.open(index);
@@ -61,13 +55,13 @@ public class LuceneXMLProcessor
 	    
 	    String[] results = new String[10];
 	    
-	    //System.out.println("Found " + hits.length + " hits.");
+	    System.out.println("Found " + hits.length + " hits.");
 	    
 	    for (int i = 0; i < hits.length; ++i) {
 	      int docId = hits[i].doc;
 	      Document d = searcher.doc(docId);
 	      results [i] = d.get("FirstName");
-	      //System.out.println((i + 1) + ". \t" + d.get("FirstName") + " " + d.get("LastName") + "\t\t" + d.get("EmailAddress"));
+	      System.out.println((i + 1) + ". \t" + d.get("FirstName") + " " + d.get("LastName") + "\t\t" + d.get("EmailAddress"));
 	    }
 
 	    reader.close();

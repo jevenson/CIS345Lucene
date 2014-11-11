@@ -11,7 +11,7 @@ import org.xml.sax.SAXException;
 
 public class XMLParser 
 {
-	public static NodeList parseXMLFile(String filePath, String objectType) throws ParserConfigurationException, SAXException, IOException 
+	public static NodeList parseXMLFile(String filePath) throws ParserConfigurationException, SAXException, IOException 
 	{	
 		File file = new File(filePath);
 		
@@ -21,6 +21,6 @@ public class XMLParser
 		
 		doc.getDocumentElement().normalize();
 		
-		return doc.getElementsByTagName(objectType);
+		return doc.getChildNodes();
 	}
 }
