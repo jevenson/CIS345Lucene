@@ -42,6 +42,13 @@ public class LuceneXMLProcessor
 	    	q = new QueryParser(Version.LUCENE_40, "Title", analyzer).parse(querystr); 
 	    } else {
 	    	for (int i = 1; i <= 50; i++) {
+	    		
+	    		//TODO - add customers32.xml so we dont have to skip it
+				i = i == 32 ? 33 : i;
+				
+				//TODO - fix the malformed customers45.xml
+				i = i == 45 ? 46 : i;
+				
 	    		CustomerDocuments.addDoc(w, ".\\xml\\customers\\customers" + i + ".xml");
 	    	}
 	    	
