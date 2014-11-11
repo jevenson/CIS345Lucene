@@ -23,6 +23,8 @@ import java.nio.file.Paths;
 
 public class LuceneXMLProcessor
 {
+	
+	
 	@SuppressWarnings("deprecation")
 	//Optional Arguments
 	//Argument 1 file directory
@@ -33,8 +35,9 @@ public class LuceneXMLProcessor
 	    Directory index = new RAMDirectory();
 	    IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
 	    
+
 	    IndexWriter w = new IndexWriter(index, config);
-	    
+
 	    Files.walk(Paths.get(directory)).forEach(filePath -> {
 	        if (Files.isRegularFile(filePath)) 
 	        {
