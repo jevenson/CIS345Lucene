@@ -1,0 +1,6 @@
+1)Double click jarDexcription.jardesc in package root
+	a)choose desired destination directory
+	b)click "Finish"
+2)Run the following command in the prompt after correcting the file paths
+	ikvmc.exe -target:library -out:Lucene.dll c:\wdmd\Lucene.jar c:\wdmd\lucene-analyzers-common-4.10.1.jar c:\wdmd\lucene-core-4.10.1.jar c:\wdmd\lucene-queryparser-4.10.1.jar
+3)Success!  copy the DLL over the top of the old version in visual studio
