@@ -7,6 +7,7 @@ import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.IndexableField;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
@@ -20,27 +21,28 @@ import org.apache.lucene.util.Version;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
 
 public class LuceneXMLProcessor
 {
-	
-	
-	@SuppressWarnings("deprecation")
+	@SuppressWarnings({ "deprecation", "unchecked", "rawtypes" })
 	//Optional Arguments
 	//Argument 1 file directory
 	//Argument 2 lucene search query
-	public static String[] GO(String directory, String querystr) throws ParseException, IOException 
+	public static Vector<Map> GO(String directory, String querystr) throws ParseException, IOException 
 	{
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 	    Directory index = new RAMDirectory();
 	    IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
-	    
 
 	    IndexWriter w = new IndexWriter(index, config);
 
 	    Files.walk(Paths.get(directory)).forEach(filePath -> {
-	        if (Files.isRegularFile(filePath)) 
-	        {
+	        if (Files.isRegularFile(filePath)) {
 	            LuceneDocumentBuilder.addDoc(w, filePath.toString());
 	        }
 	    });	 
@@ -56,20 +58,49 @@ public class LuceneXMLProcessor
 	    searcher.search(q, collector);
 	    ScoreDoc[] hits = collector.topDocs().scoreDocs;
 	    
-	    String[] results = new String[10];
+		Vector<Map> results = new Vector<Map>();
+	    
+	    //String[] results = new String[10];
 	    
 	    System.out.println("Found " + hits.length + " hits.");
 	    
-	    for (int i = 0; i < hits.length; ++i) {
-	      int docId = hits[i].doc;
-	      Document d = searcher.doc(docId);
-	      results [i] = d.get("FirstName");
-	      System.out.println((i + 1) + ". \t" + d.get("FirstName") + " " + d.get("LastName") + "\t\t" + d.get("EmailAddress"));
-	    }
-
+		for (int i = 0; i < hits.length; ++i) {
+			int docId = hits[i].doc;
+			Document d = searcher.doc(docId);
+			
+			Map result = new HashMap();
+				
+			List<IndexableField> fields = d.getFields();
+			
+			for (int x = 0; x < fields.size() - 1; x++) {
+				IndexableField field = fields.get(x);
+				
+				result.put(field.name(), field.stringValue());
+			}
+			
+			results.add(result);
+		}
+		
 	    reader.close();
 	    
-	    return results;
+	    //Output code, for testing porpoises 
+	    for (int i = 0; i < results.size() - 1; i++) {
+	    	Map result = results.get(i);
+	    	
+	    	Iterator it = result.entrySet().iterator();
+	        while (it.hasNext()) {
+	            Map.Entry pairs = (Map.Entry)it.next();
+	            System.out.println(padRight(pairs.getKey().toString(), 20) + " " + padRight(pairs.getValue().toString(), 20));
+	            //it.remove(); // avoids a ConcurrentModificationException
+	        }
+	
+	    	System.out.println();
+	    } //end output 
 	    
+	    return results;
+	}
+	
+	private static String padRight(String s, int n) {
+	     return String.format("%1$-" + n + "s", s);  
 	}
 }
