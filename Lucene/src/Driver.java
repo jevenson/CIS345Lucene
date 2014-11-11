@@ -7,7 +7,7 @@ public class Driver {
 
 	public static void main(String[] args) throws ParseException, IOException {
 		
-		LuceneXMLProcessor.GO("Book","lucene");
+		LuceneXMLProcessor.GO("customers","Witt");
 		
 	}
 

@@ -21,6 +21,8 @@ import java.io.IOException;
 
 public class LuceneXMLProcessor
 {
+	
+	
 	@SuppressWarnings("deprecation")
 	//Optional Arguments
 	//Argument 1 (book || customer)
@@ -36,7 +38,7 @@ public class LuceneXMLProcessor
 	    
 	    if (objectType.equals("book")) {	    	
 	    	for (int i = 1; i <= 50; i++) {
-	    		BookDocuments.addDoc(w, ".\\xml\\books\\book" + i + ".xml");
+	    		BookDocuments.addDoc(w, ".\\xml\\books\\books" + i + ".xml");
 	    	}
 	    	
 	    	q = new QueryParser(Version.LUCENE_40, "Title", analyzer).parse(querystr); 
