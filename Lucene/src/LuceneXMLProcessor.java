@@ -46,12 +46,14 @@ public class LuceneXMLProcessor
 			IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
 			IndexWriter w = new IndexWriter(index, config);
 			
+			/*
 			Files.walk(Paths.get(directory)).forEach(filePath -> {
 				if (Files.isRegularFile(filePath)) {
 					LuceneDocumentBuilder.addDoc(w, filePath.toString());
 				}
 			});	 
 			
+			*/
 			w.close();
 			
 			directoryMap.put(directory, index);
