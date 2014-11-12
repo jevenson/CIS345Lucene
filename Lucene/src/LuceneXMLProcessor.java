@@ -18,9 +18,10 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
+import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+//import java.nio.file.Files;
+//import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -29,6 +30,7 @@ import java.util.Vector;
 
 public class LuceneXMLProcessor
 {	
+	@SuppressWarnings("rawtypes")
 	static Map directoryMap = new HashMap();
 	
 	@SuppressWarnings({ "deprecation", "unchecked", "rawtypes" })
@@ -46,7 +48,17 @@ public class LuceneXMLProcessor
 			IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
 			IndexWriter w = new IndexWriter(index, config);
 			
-			/*
+			File[] files = new File(directory).listFiles();
+
+		    for (File file : files) {
+		        if (!file.isDirectory()) {
+		        	LuceneDocumentBuilder.addDoc(w, file.getAbsolutePath().toString());
+		        }
+		    }
+			
+			/* Original Implementation of iterating through files in a directory
+			 * Removed because we need to use JavaSE-1.7 & the lambda in the below code use JavaSE-1.8
+			 * 
 			Files.walk(Paths.get(directory)).forEach(filePath -> {
 				if (Files.isRegularFile(filePath)) {
 					LuceneDocumentBuilder.addDoc(w, filePath.toString());
