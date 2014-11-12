@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
 <jardesc>
+<<<<<<< HEAD
     <jar path="C:/WDMD/Lucene.jar"/>
+=======
+    <jar path="C:/wdmd/Lucene.jar"/>
+>>>>>>> origin/master
     <options buildIfNeeded="true" compress="true" descriptionLocation="/Lucene/jarDescription.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>

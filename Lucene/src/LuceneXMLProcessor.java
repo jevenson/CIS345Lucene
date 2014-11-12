@@ -28,7 +28,9 @@ import java.util.Map;
 import java.util.Vector;
 
 public class LuceneXMLProcessor
-{
+{	
+	static Map directoryMap = new HashMap();
+	
 	@SuppressWarnings({ "deprecation", "unchecked", "rawtypes" })
 	//Optional Arguments
 	//Argument 1 file directory
@@ -36,18 +38,28 @@ public class LuceneXMLProcessor
 	public static Vector<Map> GO(String directory, String querystr) throws ParseException, IOException 
 	{
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
-	    Directory index = new RAMDirectory();
-	    IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
-
-	    IndexWriter w = new IndexWriter(index, config);
-
-	    Files.walk(Paths.get(directory)).forEach(filePath -> {
-	        if (Files.isRegularFile(filePath)) {
-	            LuceneDocumentBuilder.addDoc(w, filePath.toString());
-	        }
-	    });	 
-		    
-	    w.close();
+		Directory index = null;
+		
+		if (directoryMap.get(directory) == null) {
+			index = new RAMDirectory();
+			
+			IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
+			IndexWriter w = new IndexWriter(index, config);
+			
+			/*
+			Files.walk(Paths.get(directory)).forEach(filePath -> {
+				if (Files.isRegularFile(filePath)) {
+					LuceneDocumentBuilder.addDoc(w, filePath.toString());
+				}
+			});	 
+			
+			*/
+			w.close();
+			
+			directoryMap.put(directory, index);
+		} else {
+			index = (Directory) directoryMap.get(directory);
+		}
 	
 	    Query q = new QueryParser("", analyzer).parse(querystr);
 	    
