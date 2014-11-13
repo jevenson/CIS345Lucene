@@ -20,61 +20,56 @@ import org.apache.lucene.util.Version;
 
 import java.io.File;
 import java.io.IOException;
-//import java.nio.file.Files;
-//import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+@SuppressWarnings({ "deprecation", "unchecked", "rawtypes" })
 public class LuceneXMLProcessor
 {	
-	@SuppressWarnings("rawtypes")
+	//Map to store key/value pairs of directories and their indexes
 	static Map directoryMap = new HashMap();
 	
-	@SuppressWarnings({ "deprecation", "unchecked", "rawtypes" })
 	//Optional Arguments
 	//Argument 1 file directory
 	//Argument 2 lucene search query
 	public static Vector<Map> GO(String directory, String querystr) throws ParseException, IOException 
 	{
+		//declaring an analyzer and instantiating the index to null
 		StandardAnalyzer analyzer = new StandardAnalyzer(Version.LUCENE_40);
 		Directory index = null;
 		
+		//check to see if the index has already been built for this directory
 		if (directoryMap.get(directory) == null) {
+			//the index has not been built for the provided dictionary
 			index = new RAMDirectory();
 			
 			IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_40, analyzer);
 			IndexWriter w = new IndexWriter(index, config);
 			
+			//For each file in the directory, run it through the Lucene Document Builder 
+			//	build documents and add them to the index writer
 			File[] files = new File(directory).listFiles();
-
 		    for (File file : files) {
 		        if (!file.isDirectory()) {
 		        	LuceneDocumentBuilder.addDoc(w, file.getAbsolutePath().toString());
 		        }
 		    }
-			
-			/* Original Implementation of iterating through files in a directory
-			 * Removed because we need to use JavaSE-1.7 & the lambda in the below code use JavaSE-1.8
-			 * 
-			Files.walk(Paths.get(directory)).forEach(filePath -> {
-				if (Files.isRegularFile(filePath)) {
-					LuceneDocumentBuilder.addDoc(w, filePath.toString());
-				}
-			});	 
-			
-			*/
 			w.close();
 			
+			//write documents to index
 			directoryMap.put(directory, index);
 		} else {
+			//Index has already been build for the directory
 			index = (Directory) directoryMap.get(directory);
 		}
 	
+		//query parse, no default field specified, hence the ""
 	    Query q = new QueryParser("", analyzer).parse(querystr);
 	    
+	    //Perform the search
 	    int hitsPerPage = 1000;
 	    IndexReader reader = DirectoryReader.open(index);
 	    IndexSearcher searcher = new IndexSearcher(reader);
@@ -82,11 +77,9 @@ public class LuceneXMLProcessor
 	    searcher.search(q, collector);
 	    ScoreDoc[] hits = collector.topDocs().scoreDocs;
 	    
+	    //Build results vector comprised of dictionaries
 		Vector<Map> results = new Vector<Map>();
 	    
-	    //String[] results = new String[10];
-	    
-	    System.out.println("Found " + hits.length + " hits.");
 	    
 		for (int i = 0; i < hits.length; ++i) {
 			int docId = hits[i].doc;
@@ -99,6 +92,7 @@ public class LuceneXMLProcessor
 			for (int x = 0; x < fields.size() - 1; x++) {
 				IndexableField field = fields.get(x);
 				
+				//Add the document field name and its value to the map (key value pair)
 				result.put(field.name(), field.stringValue());
 			}
 			
@@ -108,6 +102,7 @@ public class LuceneXMLProcessor
 	    reader.close();
 	    
 	    //Output code, for testing porpoises 
+	    System.out.println("Found " + hits.length + " hits.");
 	    for (int i = 0; i < results.size() - 1; i++) {
 	    	Map result = results.get(i);
 	    	
@@ -115,12 +110,12 @@ public class LuceneXMLProcessor
 	        while (it.hasNext()) {
 	            Map.Entry pairs = (Map.Entry)it.next();
 	            System.out.println(padRight(pairs.getKey().toString(), 20) + " " + padRight(pairs.getValue().toString(), 20));
-	            //it.remove(); // avoids a ConcurrentModificationException
 	        }
 	
 	    	System.out.println();
 	    } //end output 
 	    
+	    //return the vector of map results
 	    return results;
 	}
 	

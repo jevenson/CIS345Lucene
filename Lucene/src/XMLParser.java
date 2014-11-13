@@ -11,6 +11,7 @@ import org.xml.sax.SAXException;
 
 public class XMLParser 
 {
+	//Accepts a file path and parses the XML file, returning a NodeList
 	public static NodeList parseXMLFile(String filePath) throws ParserConfigurationException, SAXException, IOException 
 	{	
 		File file = new File(filePath);

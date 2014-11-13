@@ -1,3 +1,4 @@
+//TESTING FILE USED TO LEARN LUCENE
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;

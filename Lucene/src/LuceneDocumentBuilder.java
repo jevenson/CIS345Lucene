@@ -28,7 +28,7 @@ public class LuceneDocumentBuilder
 					 nodes = nodes.item(0).getChildNodes();
 			
 			for (int i = 0; i < nodes.getLength(); i++) {
-				//gets the first customer
+				//gets the node at the specified index
 				Node firstNode = nodes.item(i);
 
 				if (firstNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -44,26 +44,6 @@ public class LuceneDocumentBuilder
 							doc.add(new TextField(currentChildNode.getNodeName(), getNodeValue(firstElement, currentChildNode.getNodeName()), Field.Store.YES));
 						}
 					}
-					
-					
-					/*
-					 	Customer
-						doc.add(new TextField("FirstName", getNodeValue(firstElement, "FirstName"), Field.Store.YES));
-						doc.add(new TextField("LastName", getNodeValue(firstElement, "LastName"), Field.Store.YES));
-						doc.add(new TextField("EmailAddress", getNodeValue(firstElement, "EmailAddress"), Field.Store.YES));
-						doc.add(new TextField("PhoneNumber", getNodeValue(firstElement, "PhoneNumber"), Field.Store.YES));
-						doc.add(new TextField("AltPhoneNumber", getNodeValue(firstElement, "AltPhoneNumber"), Field.Store.YES));
-						doc.add(new TextField("StreetAddress", getNodeValue(firstElement, "StreetAddress"), Field.Store.YES));
-						doc.add(new TextField("City", getNodeValue(firstElement, "City"), Field.Store.YES));
-						doc.add(new TextField("State", getNodeValue(firstElement, "State"), Field.Store.YES));
-						doc.add(new TextField("ZipCode", getNodeValue(firstElement, "ZipCode"), Field.Store.YES));
-						
-						Book
-						doc.add(new TextField("Title", getNodeValue(firstElement, "Title"), Field.Store.YES));
-						doc.add(new TextField("Author", getNodeValue(firstElement, "Author"), Field.Store.YES));
-						doc.add(new TextField("PublishDate", getNodeValue(firstElement, "PublishDate"), Field.Store.YES));
-						doc.add(new TextField("Price", getNodeValue(firstElement, "Price"), Field.Store.YES));
-					*/
 					
 					w.addDocument(doc);
 				}
