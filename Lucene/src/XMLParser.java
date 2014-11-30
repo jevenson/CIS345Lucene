@@ -1,3 +1,8 @@
+//Jon Meer & Josh Evenson
+//CIS 345 Final Project
+//11-30-2014
+//For Dr. Weimin He
+
 import java.io.File;
 import java.io.IOException;
 

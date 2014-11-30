@@ -1,3 +1,8 @@
+//Jon Meer & Josh Evenson
+//CIS 345 Final Project
+//11-30-2014
+//For Dr. Weimin He
+
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;

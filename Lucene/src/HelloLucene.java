@@ -50,7 +50,6 @@
 //……………………………………………………’-, ; ; ;,,-~’’’ \\ , ,|, | 
 //………………………………………………………’’~-‘’_ , , ,,’,_/--‘ 
 
-
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -69,8 +68,12 @@ import org.apache.lucene.search.TopScoreDocCollector;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
-
 import java.io.IOException;
+
+//Jon Meer & Josh Evenson
+//CIS 345 Final Project
+//11-30-2014
+//For Dr. Weimin He
 
 public class HelloLucene {
   @SuppressWarnings("deprecation")
